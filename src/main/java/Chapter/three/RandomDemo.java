@@ -20,6 +20,8 @@ public class RandomDemo {
 
         System.out.println((int) (Math.random() * 100));
 
+        System.out.println("***************************88");
+
     }
 
 }
