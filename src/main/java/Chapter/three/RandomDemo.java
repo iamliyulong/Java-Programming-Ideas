@@ -10,7 +10,7 @@ import java.util.Random;
 public class RandomDemo {
 
     public static void main(String[] args) {
-        System.out.println("==========================");
+        System.out.println("****************");
 
         Random random = new Random(100);
         System.out.println(random.nextInt(1000));
