@@ -16,7 +16,6 @@ public class LabelDemo {
             for (int j = 0; j < 10; j++) {
                 inner:
                 for (int k = 0; k < 10; k++) {
-
                     if (k == 3) {
                         System.out.println("continue inner," + "i=" + i + ",j=" + j + ",k=" + k);
                         continue inner;
@@ -29,11 +28,8 @@ public class LabelDemo {
                     } else {
                         System.out.println("i=" + i + ",j=" + j + ",k=" + k);
                     }
-
                 }
             }
         }
-
     }
-
 }
